@@ -8,6 +8,13 @@ The first lab involves the following non-coding material:
 * Setting up Jekyll blogs
 * Intro to writing with Jekyll
 
+### Related videos
+Shiffman videos:
+* [1.0: What is p5.js?](https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA),
+* [1.1: The Basics of Drawing](https://www.youtube.com/watch?v=D1ELEeIs0j8&index=2&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA),
+* [1.2: Color](https://www.youtube.com/watch?v=9mucjcrhFcM&index=3&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA),
+* [1.3: How to Upload Your Files (p5.js file structure)](https://www.youtube.com/watch?v=lbKMZa-CZ_Y&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=4).
+
 #### ...and also the first coding lesson: Intro to Drawing with p5.js
 Before we get down to brass tacks with p5.js:
 * Make a sandwich

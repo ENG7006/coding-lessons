@@ -1,5 +1,13 @@
 # Lab 2: Variables and Objects, with a Small Taste of Conditions and Animation
 
+### Related videos
+Shiffman videos:
+* [2.1: Variables in p5.js](https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=5)
+* [2.2: Variables in p5.js: Make your Own](https://www.youtube.com/watch?v=Bn_B3T_Vbxs&index=6&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+* [2.3: JavaScript Objects](https://www.youtube.com/watch?v=-e5h4IGKZRY&index=7&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+* [3.1: Introduction to Conditional Statements](https://www.youtube.com/watch?v=1Osb_iGDdjk&index=10&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+* [3.2: The Bouncing Ball](https://www.youtube.com/watch?v=LO3Awjn_gyU&index=11&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+
 ### The Problem with ```triangle```
 Let's take a look one of our basic p5.js shapes that we learned last time (and that you should be used to a bit by now), ```triangle```:
 ```javascript
