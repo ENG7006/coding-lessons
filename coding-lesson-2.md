@@ -447,9 +447,11 @@ We'll get into more complex conditional syntax next time. That said, it is almos
 This week there are six dailies:
 * Refactor one of your sketches from last week so that it's more expressive
 * Rewrite Ball so that the ball bounces vertically, rather than horizontally
-* Rewrite Ball so that the ball moves and bounces in both directions at once
-* Fork the MovableShape project twice, using it to animate two of your three moving objects from last week: car, rocket, and your own special moving object
-* One of these must include some more complex behavior: acceleration, edge detection, or interaction with the mouse
+* ~~Rewrite Ball so that the ball moves and bounces in both directions at once~~ *This we will do together in lab on January 28.*
+* ~~Fork the MovableShape project twice, using it to animate two of your three moving objects from last week: car, rocket, and your own special moving object~~
+* ~~One of these must include some more complex behavior: acceleration, edge detection, or interaction with the mouse~~
+
+*The MovableShape dailies will be dailies after January 28th's lab.*
 
 Notes about MovableShape:
 1. This is the first place where you'll be relying on "support code." I have not hidden this code away, so you can't see it. (Although actually, you'd be able to see all of it anyway, since that's the nature of this particular beast: since JavaScript is an interpreted language, that means if you can use it, you can also read it.) However, I've also left it in there so you can see what I've done, how the object works internally. It's pretty straightforward, using a very simple algorithm, so that you can move whole complex shapes very easily. Be sure to follow the instructions in the code comments.
