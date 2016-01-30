@@ -2,6 +2,8 @@
 
 The most recent schedule for coding lessons can always be found on our [course Google Calendar](http://bit.ly/1OpbtSs).
 
+A running tally and description of daily assignments can be found on the [dailies page](https://github.com/eng7006/master/blob/dailies.md)
+
 Please note that daily assignments are always specified at the end of each coding lesson. They are not specified in a separate sheet.
 
 Thursday, January 14: [Coding Lesson 1: p5.js Basics: Drawing, Function Calls](https://github.com/ENG7006/coding-lessons/blob/master/coding-lesson-1.md)

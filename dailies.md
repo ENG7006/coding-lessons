@@ -10,7 +10,7 @@
 
 ### Week 2 Dailies
 #### Three dailies
-* Refactor one of your shapes from week 1 using variables and functions and, possibly, objects to make it more reusable and extensible. (The ideal here, although it is not *quite* a requirement, is that you have an object that has an x and a y property that moves the object as a single entity.)
+* Refactor one of your shapes from week 1 using variables and functions and, possibly, objects to make it more reusable and extensible. (The ideal here, although it is not *quite* a requirement, is that you have an object that has an x and a y property that moves the object as a single entity.) NB: You may wish to radically simplify your shape before attempting refactoring. *The spec here is this:* at least four of your own variables and one of your own functions. This is the minimum; you will probably want to take this substantially further.
 * ```ball``` #1: make the ball bounce horizontally
 * ```ball``` #2: make the ball bounce vertically
 
@@ -18,9 +18,12 @@
 #### Three dailies
 * ```ball``` #3: Make the ball bounce in both directions. By this I mean: the ball moves in both directions, horizontal and vertical, and the ball continues its horizontal motion after bouncing off the top or bottom—and likewise, it continues its vertical movement after bouncing off the left or right side.
 
-And then, two of the following three
+And then, two of the following three uses/modifications of [movable-shape](https://github.com/eng7006/movable-shape):
 * ```movable-shape``` #1: Animate the car so that it "drives" horizontally using ```movable-shape```.
 * ```movable-shape``` #2: Animate the rocket so that it "takes off" vertically using ```movable-shape```.
 * ```movable-shape``` #3: Animate one of your "things-that-move" from week 1 using ```movable-shape```.
 
 NB: The best way to work with ```movable-shape``` is to fork it, and immediately create your two different branches. Then edit each branch separately, and submit separate pull requests for each branch.
+
+### Week 4 Dailies
+TBD.
