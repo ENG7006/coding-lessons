@@ -523,10 +523,10 @@ A few notes about the code here:
 Your first project is, without copying and pasting, and with as little retyping as possible, the ```setup()``` and ```draw()``` functions for bubbles. Give yourself a nice, large canvas, and a black background.
 
 #### Dailies
-There are five dailies this week.
+There are five dailies ~~this week~~ these two weeks.
 
 * In a first iteration, your sketch should start with a blank canvas, adding new bubbles when the mouse is pressed.
 * In a second iteration, your sketch should begin with 500 bubbles on the canvas. (Hint: this is best done with a loop; doing it functionally requires a hack and use of the ```Array.map()``` function.)
-* In a third iteration, your bubbles should not collect at the top, but move upwards continuously.
+* In a third iteration, your bubbles should not collect at the top, but move upwards continuously. (Update: see [the dailies](https://github.com/ENG7006/coding-lessons/blob/master/dailies.md) for an elaboration on this particular spec.)
 * In a fourth iteration, rewrite the iteration you use in ```draw()``` to use the other technique (if you used ```forEach()```, rewrite it using a loop).
 * Finally, in a last daily project, create a sketch that animates a lot of somethings that aren't ```Bubble```s or ```Ball```s. You should adapt the pattern from those objects to your new object: prototype object, constructor, ```new``` keyword, instance variables, etc. Your object should be something that there are obviously lot of, and that move in some way that's different from ```Bubble``` and ```Ball```. If you don't have your own ideas, here are two: snow falling and shooting stars.

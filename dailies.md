@@ -25,5 +25,17 @@ And then, two of the following three uses/modifications of [movable-shape](https
 
 NB: The best way to work with ```movable-shape``` is to fork it, and immediately create your two different branches. Then edit each branch separately, and submit separate pull requests for each branch.
 
-### Week 4 Dailies
-TBD.
+### Weeks 4 & 5 Dailies
+There are five dailies related to ```bubbles```:
+
+* Start with a blank canvas, adding a ```Bubble``` wherever the user clicks.
+* Start with 500 ```Bubble```s on the canvas. (You may wish to either include, or not, the interactive functionality from the first daily.) **Hint:** This requires a loop, and cannot be done (easily) using a callback (although if you're curious, [here's the hack to do it functionally](https://github.com/eng7006/blob/master/functional-array-hack.md)).
+* Instead of collecting at the top, the ```Bubble```s should move upwards continuously. By this I mean, once a ```Bubble``` reaches the top, instead of floating and fizzing there, it should move upwards off the canvas, *and reappear by emerging from the bottom of the canvas*. A variation: instead of a particular ```Bubble``` disappearing at the top and reappearing at the bottom, when a ```Bubble``` disappears at the top, a new, different ```Bubble``` emerges at the bottom at a random x position. Either way, the effect should be a constantly upward-moving field of ```Bubbles```.
+* Whatever method you use in ```draw()``` to iterate across the ```Bubble```s in the first daily (or wherever you perform the iteration), write the same code using the alternative method. If you used ```forEach()``` and a callback, use a loop (either ```for``` or ```while```), whichever you prefer. Or, if you used a loop, write the iteration using ```forEach()```.
+* Finally, create a sketch that animates a lot of somethings that are neither ```Bubbles``` nor ```Balls```. Keep these simple!
+
+On this last daily project, a few suggestions:
+* You'll want to create a constructor function and a prototype object. Feel free to adapt the code from either ```bubbles``` or ```oo-balls```.
+* This prototype object should have the same basic structure as a ```Bubble``` or a ```Ball```: a relatively simple object with a position (x and y) and speed (x and y).
+* It should also likely contain, according to convention, both ```update()``` and ```display()``` functions, as all our objects in p5 tend to.
+* Beyond that, these can be whatever you'd like.
