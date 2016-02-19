@@ -266,17 +266,17 @@ var Circle = function(x, y, radius) {
 
 Circle.prototype = {
 
-  initialize(directionX, directionY) {
+  initialize: function(directionX, directionY) {
     directionX = (directionX) ? directionX : 1; // note these are optional arguments
     directionY = (directionY) ? directionY : -1;
     this.direction = new p5.Vector(directionX, directionY);
   },
 
-  update() {
+  update: function() {
     this.position.add(this.direction);
   },
 
-  display() {
+  display: function() {
     ellipse(this.position.x, this.position.y, this.radius, this.radius);
   }
 };
