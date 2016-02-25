@@ -52,21 +52,32 @@ Only ```KeyedUpBall``` will be available right away; other repos will be posted 
 ##### ```KeyedUpBall```
 Create a sketch in which you can move a ball around a screen using keys on the keyboard. Your ball can be any size or color you want. Beyond that, it must meet the following specs:
 1. The ```KeyedUpBall``` can have any (descriptive) name you like, but it *must* be a prototype object.
+
 2. The ball must move left, right, up, and down, as well as diagonal combinations thereof, in response to key presses. These can be any keys you want, but typically, they'd be W, A, S, and D.
+
 3. The ball moves when you hold down the relevant key, and stops when you release it.
+
 4. The ball uses KeyListener to manage its own movement; nothing should be in p5 functions such as ```setup()``` or ```draw()```, or even ```keyPressed()```. (```KeyListener``` is included in the ```KeyedUpBall``` repo.)
+
 5. The ball should not go off the canvas. You should **not** use conditional logic to keep it there. (A hint: peruse the p5.js reference, [especially the Math section](http://p5js.org/reference/#group-Math).)
+
 6. The ball's position should not be stored in InteractiveBall.x and InteractiveBall.y, but InteractiveBall.position.x and InteractiveBall.position.y. (You may, but you do not have to, use a p5.Vector for this.)
+
 7. This is entailed by using KeyListener, but I will make it explicit for you: the ball must have different functions for each direction of movement.
 
 ##### ```BouncingBall```s
 Create a sketch in which you create an arbitrary number of balls that bounce around the canvas. This should be a familiar problem by now. That said, these have some new and unfamiliar twists:
 1. These should be translucent, showing how each ball passes through the other (hint: look at [the p5.js documentation for color](http://p5js.org/reference/#group-Color)).
+
 2. Their positions and directions must be represented by [p5.Vector objects](http://p5js.org/reference/#/p5.Vector).
+
 3. Their direction should be random when they are ```initialize()```ed, but each ball should have the same speed. (A hint: please consult the p5.Vector documentation closely; what functions let you change the direction of a vector?)
+
 4. They should bounce off the edges of the canvas.
 
 ##### ```HUD```
 A "HUD" is a "head's up display." Create a sketch in which some discrete thing happens over and over again (say, a ball bounces off the edge of the canvas, or the user clicks the mouse, or whatever).
+
 1. Display a counter on the screen, anywhere you like. Each time this thing happens, the counter should increment by 1.
+
 2. Also on the screen, there should be a timer counting up, displaying the time elapsed since the sketch started running. To do this, use the ```Timer``` provided in the ```HUD``` repo.
